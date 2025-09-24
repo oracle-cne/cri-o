@@ -1,14 +1,15 @@
 diff --git vendor/github.com/containers/image/v5/docker/docker_client.go vendor/github.com/containers/image/v5/docker/docker_client.go
-index 9e8fece03..edc8b9e91 100644
+index 851d3e082..39aa6e333 100644
 --- vendor/github.com/containers/image/v5/docker/docker_client.go
 +++ vendor/github.com/containers/image/v5/docker/docker_client.go
-@@ -828,11 +828,22 @@ func (c *dockerClient) detectPropertiesHelper(ctx context.Context) error {
+@@ -924,12 +924,23 @@ func (c *dockerClient) detectPropertiesHelper(ctx context.Context) error {
+ 			return err
  		}
  		defer resp.Body.Close()
- 		logrus.Debugf("Ping %s status %d", pingURL.Redacted(), resp.StatusCode)
 +		respUrl := resp.Request.URL
 +		location := respUrl.String()
 +		logrus.Debugf("Ping %s status %d location %s", pingURL, resp.StatusCode, location)
+ 		logrus.Debugf("Ping %s status %d", pingURL.Redacted(), resp.StatusCode)
  		if resp.StatusCode != http.StatusOK && resp.StatusCode != http.StatusUnauthorized {
  			return registryHTTPResponseToError(resp)
  		}
@@ -20,7 +21,7 @@ index 9e8fece03..edc8b9e91 100644
 +			// +3 == len("://")
 +			c.registry = location[schemesize+3 : len(location)-len(fmt.Sprintf(resolvedPingV2URL, "", ""))+3]
 +		}
- 		c.challenges = parseAuthHeader(resp.Header)
+ 		c.challenges = slices.Collect(iterateAuthHeader(resp.Header))
 -		c.scheme = scheme
 +		c.scheme = respUrl.Scheme
  		c.supportsSignatures = resp.Header.Get("X-Registry-Supports-Signatures") == "1"
