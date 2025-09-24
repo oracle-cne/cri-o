@@ -61,7 +61,8 @@ mv $(ls | grep -v "^src$") src/github.com/cri-o/cri-o/.
 %build
 export GOPATH=$(pwd)
 pushd src/github.com/cri-o/cri-o
-make GIT_TREE_STATE=clean all
+
+make GIT_TREE_STATE=clean TRIMPATH="-trimpath=false" EXTRA_LDFLAGS="-X main.VERSION=v%{version}" all
 popd
 
 %install
