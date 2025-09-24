@@ -39,7 +39,7 @@ Obsoletes: ocid <= 0.3
 Provides: ocid = %{version}-%{release}
 Provides: %{service_name} = %{version}-%{release}
 Provides: %{_sysconfdir}/crio/1.33
-Requires: kubernetes-cni-plugins >= 0.7.5
+Requires: containernetworking-cni-plugins
 #TODO: Remove pinning down of conmon-3:2.0.21-1 version when conmon moves to 2.1.x
 Requires: conmon >= 3:2.1.3-8%{?dist}
 Requires: socat
