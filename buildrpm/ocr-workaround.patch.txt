@@ -2,7 +2,7 @@ diff --git vendor/github.com/containers/image/v5/docker/docker_client.go vendor/
 index 851d3e082..39aa6e333 100644
 --- vendor/github.com/containers/image/v5/docker/docker_client.go
 +++ vendor/github.com/containers/image/v5/docker/docker_client.go
-@@ -924,12 +924,23 @@ func (c *dockerClient) detectPropertiesHelper(ctx context.Context) error {
+@@ -920,12 +920,23 @@ func (c *dockerClient) detectPropertiesHelper(ctx context.Context) error {
  			return err
  		}
  		defer resp.Body.Close()
@@ -21,7 +21,7 @@ index 851d3e082..39aa6e333 100644
 +			// +3 == len("://")
 +			c.registry = location[schemesize+3 : len(location)-len(fmt.Sprintf(resolvedPingV2URL, "", ""))+3]
 +		}
- 		c.challenges = slices.Collect(iterateAuthHeader(resp.Header))
+ 		c.challenges = parseAuthHeader(resp.Header)
 -		c.scheme = scheme
 +		c.scheme = respUrl.Scheme
  		c.supportsSignatures = resp.Header.Get("X-Registry-Supports-Signatures") == "1"
