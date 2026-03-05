@@ -205,7 +205,32 @@ github.com/checkpoint-restore/checkpointctl
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2021 Adrian Reber adrian@lisas.de
+Copyright 2021 Adrian Reber areber@redhat.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2021 Paul Holzinger pholzing@redhat.com
+Copyright 2021 Radostin Stoyanov radostin@redhat.com
+Copyright 2022 Adrian Reber areber@redhat.com
+Copyright 2022 GitHub noreply@github.com
+Copyright 2022 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2022 Prajwal S N prajwalnadig21@gmail.com
+Copyright 2022 Radostin Stoyanov radostin@redhat.com
+Copyright 2023 Adrian Reber areber@redhat.com
+Copyright 2023 GitHub noreply@github.com
+Copyright 2023 Kouame Behouba Manasse behouba@gmail.com
+Copyright 2023 Prajwal S N prajwalnadig21@gmail.com
+Copyright 2023 Radostin Stoyanov radostin@redhat.com
+Copyright 2023 Radostin Stoyanov rstoyanov@fedoraproject.org
+Copyright 2023 Sankalp Acharya sankalpacharya1211@gmail.com
+Copyright 2024 Adrian Reber areber@redhat.com
+Copyright 2024 GitHub noreply@github.com
+Copyright 2024 Kouame Behouba Manasse behouba@gmail.com
+Copyright 2024 Mayank Jain mayank20399@gmail.com
+Copyright 2024 Parthiba-Hazra parthibahazra@gmail.com
+Copyright 2024 Radostin Stoyanov radostin@redhat.com
+Copyright 2024 Radostin Stoyanov rstoyanov@fedoraproject.org
+Copyright 2024 Shikhar Soni shikharish05@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -216,7 +241,39 @@ github.com/checkpoint-restore/go-criu/v7
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2018 Adrian Reber adrian@lisas.de
+Copyright 2018 Adrian Reber areber@redhat.com
+Copyright 2019 Adrian Reber areber@redhat.com
+Copyright 2019 GitHub noreply@github.com
+Copyright 2019 Radostin Stoyanov rstoyanov1@gmail.com
+Copyright 2020 Adrian Reber areber@redhat.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2020 Manas Mangaonkar manasmangaonkar@gmail.com
+Copyright 2020 Pac23 manasmangaonkar@gmail.com
+Copyright 2020 Radostin Stoyanov rst0git@users.noreply.github.com
+Copyright 2020 Radostin Stoyanov rstoyanov@fedoraproject.org
+Copyright 2021 Adrian Reber areber@redhat.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2021 Radostin Stoyanov rst0git@users.noreply.github.com
+Copyright 2021 Shengjing Zhu i@zhsj.me
+Copyright 2022 Adrian Reber areber@redhat.com
+Copyright 2022 GitHub noreply@github.com
+Copyright 2022 Mathias Gibbens mathias@calenhad.com
+Copyright 2022 Prajwal S N prajwalnadig21@gmail.com
+Copyright 2022 Radostin Stoyanov rstoyanov@fedoraproject.org
+Copyright 2023 Adrian Reber areber@redhat.com
+Copyright 2023 GitHub noreply@github.com
+Copyright 2023 Kouame Behouba Manasse behouba@gmail.com
+Copyright 2023 Prajwal S N prajwalnadig21@gmail.com
+Copyright 2023 Radostin Stoyanov rstoyanov@fedoraproject.org
+Copyright 2024 Adrian Reber areber@redhat.com
+Copyright 2024 GitHub noreply@github.com
+Copyright 2024 Kouame Behouba Manasse behouba@gmail.com
+Copyright 2024 Paul Holzinger pholzing@redhat.com
+Copyright 2024 Prajwal S N prajwalnadig21@gmail.com
+Copyright 2024 Radostin Stoyanov rstoyanov@fedoraproject.org
 
 --------------------------------- (separator) ----------------------------------
 
@@ -317,7 +374,8 @@ github.com/colega/zeropool
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2023 GitHub noreply@github.com
+Copyright 2023 Oleg Zaytsev mail@olegzaytsev.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -339,7 +397,8 @@ github.com/containerd/console
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -413,7 +472,7 @@ github.com/containerd/fifo
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -435,7 +494,6 @@ github.com/containerd/log
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors
 Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -458,7 +516,8 @@ github.com/containerd/otelttrpc
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2015 CNI authors
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -469,8 +528,7 @@ github.com/containerd/platforms
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -492,6 +550,7 @@ github.com/containerd/ttrpc
 SPDX:Apache-2.0
 
 == Copyright
+Copyright The containerd Authors
 Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
@@ -1002,8 +1061,8 @@ github.com/distribution/reference
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
 Copyright The containerd Authors.
+Copyright The ocicrypt Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2548,7 +2607,161 @@ github.com/moby/sys/userns
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2013 Suryandaru Triandana syndtr@gmail.com
+Copyright 2014 Ahmet Alp Balkan ahmetb@microsoft.com
+Copyright 2014 Alexander Larsson alexl@redhat.com
+Copyright 2014 Alexander Morozov lk4d4@docker.com
+Copyright 2014 Alexandr Morozov lk4d4@docker.com
+Copyright 2014 Alexandr Morozov lk4d4math@gmail.com
+Copyright 2014 Arnaud Porterie arnaud.porterie@docker.com
+Copyright 2014 Erik Dubbelboer erik@dubbelboer.com
+Copyright 2014 Guillaume J. Charmes guillaume.charmes@docker.com
+Copyright 2014 Guillaume J. Charmes guillaume@charmes.net
+Copyright 2014 Jessica Frazelle jess@docker.com
+Copyright 2014 Jessie Frazelle jfrazelle@users.noreply.github.com
+Copyright 2014 Kato Kazuyoshi kato.kazuyoshi@gmail.com
+Copyright 2014 Michael Crosby crosby.michael@gmail.com
+Copyright 2014 Michael Crosby crosbymichael@gmail.com
+Copyright 2014 Michael Crosby michael@crosbymichael.com
+Copyright 2014 Michael Crosby michael@docker.com
+Copyright 2014 Paul Nasrat pnasrat@gmail.com
+Copyright 2014 Peter Waller peter@scraperwiki.com
+Copyright 2014 Solomon Hykes solomon@docker.com
+Copyright 2014 Tianon Gravi admwiggin@gmail.com
+Copyright 2014 Tibor Vass teabee89@gmail.com
+Copyright 2014 Victor Marmol vmarmol@google.com
+Copyright 2014 Victor Vieux victor.vieux@docker.com
+Copyright 2014 Vincent Batts vbatts@redhat.com
+Copyright 2014 lalyos lalyos@yahoo.com
+Copyright 2014 shuai-z zs.broccoli@gmail.com
+Copyright 2014 unclejack unclejacksons@gmail.com
+Copyright 2015 Alexander Morozov lk4d4@docker.com
+Copyright 2015 Alexander Morozov lk4d4math@gmail.com
+Copyright 2015 Alexey Guskov lexag@mail.ru
+Copyright 2015 Andrey Vagin avagin@openvz.org
+Copyright 2015 Antonio Murdaca me@runcom.ninja
+Copyright 2015 Antonio Murdaca runcom@linux.com
+Copyright 2015 Antonio Murdaca runcom@users.noreply.github.com
+Copyright 2015 Arnaud Porterie arnaud.porterie@docker.com
+Copyright 2015 Cezar Sa Espinola cezarsa@gmail.com
+Copyright 2015 Chen Hanxiao chenhanxiao@cn.fujitsu.com
+Copyright 2015 Dan Walsh dwalsh@redhat.com
+Copyright 2015 David Calavera david.calavera@gmail.com
+Copyright 2015 Jamie Hannaford jamie.hannaford@rackspace.com
+Copyright 2015 John Howard jhoward@microsoft.com
+Copyright 2015 Justas Brazauskas brazauskasjustas@gmail.com
+Copyright 2015 Phil Estes estesp@linux.vnet.ibm.com
+Copyright 2015 Sebastiaan van Stijn thaJeztah@users.noreply.github.com
+Copyright 2015 Stefan J. Wernli swernli@microsoft.com
+Copyright 2015 Suryandaru Triandana syndtr@gmail.com
+Copyright 2015 Suryandaru Triandana syndtr@users.noreply.github.com
+Copyright 2015 Tibor Vass tibor@docker.com
+Copyright 2015 Tim timwangdev@gmail.com
+Copyright 2015 Victor Vieux vieux@docker.com
+Copyright 2015 Vincent Demeester vincent@sbr.pm
+Copyright 2015 Vishvananda Ishaya vishvananda@gmail.com
+Copyright 2015 Yan Feng yanfeng2@huawei.com
+Copyright 2015 h2so5 mail@h2so5.net
+Copyright 2016 Aleksa Sarai asarai@suse.com
+Copyright 2016 Alexander Morozov lk4d4@docker.com
+Copyright 2016 Amit Krishnan amit.krishnan@oracle.com
+Copyright 2016 Antonio Murdaca runcom@redhat.com
+Copyright 2016 Brian Goff cpuguy83@gmail.com
+Copyright 2016 Daniel Nephin dnephin@docker.com
+Copyright 2016 Darren Stahl darst@microsoft.com
+Copyright 2016 Jessica Frazelle acidburn@docker.com
+Copyright 2016 Jhon Honce jhonce@redhat.com
+Copyright 2016 John Howard jhoward@microsoft.com
+Copyright 2016 Phil Estes estesp@linux.vnet.ibm.com
+Copyright 2016 Sebastiaan van Stijn thaJeztah@users.noreply.github.com
+Copyright 2016 Suryandaru Triandana syndtr@users.noreply.github.com
+Copyright 2016 Victor Vieux victorvieux@gmail.com
+Copyright 2016 Vincent Demeester vincent@sbr.pm
+Copyright 2016 Yong Tang yong.tang.github@outlook.com
+Copyright 2016 allencloud allen.sun@daocloud.io
+Copyright 2016 unclejack unclejack@users.noreply.github.com
+Copyright 2016 yupeng yu.peng36@zte.com.cn
+Copyright 2017 Brian Goff cpuguy83@gmail.com
+Copyright 2017 Christopher Jones tophj@linux.vnet.ibm.com
+Copyright 2017 Daniel Nephin dnephin@docker.com
+Copyright 2017 Danyal Khaliq danyal.khaliq@tenpearls.com
+Copyright 2017 Derek McGowan derek@mcgstyle.net
+Copyright 2017 GitHub noreply@github.com
+Copyright 2017 John Howard jhoward@microsoft.com
+Copyright 2017 Justin Cormack justin.cormack@docker.com
+Copyright 2017 Kenfe-Mickael Laventure mickael.laventure@gmail.com
+Copyright 2017 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2017 Michael Crosby crosbymichael@gmail.com
+Copyright 2017 Naveed Jamil naveed.jamil@tenpearls.com
+Copyright 2017 Sebastiaan van Stijn github@gone.nl
+Copyright 2017 Steven Hartland steven.hartland@multiplay.co.uk
+Copyright 2017 Suryandaru Triandana syndtr@users.noreply.github.com
+Copyright 2017 Tobias Klauser tklauser@distanz.ch
+Copyright 2017 Vincent Demeester vincent@sbr.pm
+Copyright 2017 Yong Tang yong.tang.github@outlook.com
+Copyright 2017 phineas phin@phineas.io
+Copyright 2017 unclejack unclejack@users.noreply.github.com
+Copyright 2017 yuexiao-wang wang.yuexiao@zte.com.cn
+Copyright 2018 Brian Goff cpuguy83@gmail.com
+Copyright 2018 Daniel Nephin dnephin@docker.com
+Copyright 2018 Fabian Kramm kramm@covexo.com
+Copyright 2018 Fabian Raetz fabian.raetz@gmail.com
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Kasper Fabæch Brandt poizan@poizan.dk
+Copyright 2018 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2018 Oliver Reason oli@overrateddev.co
+Copyright 2018 Salahuddin Khan salah@docker.com
+Copyright 2018 Sebastiaan van Stijn github@gone.nl
+Copyright 2018 Suryandaru Triandana syndtr@users.noreply.github.com
+Copyright 2018 Vincent Demeester vincent@sbr.pm
+Copyright 2019 GitHub noreply@github.com
+Copyright 2019 John Howard jhoward@microsoft.com
+Copyright 2019 Jonas Dohse jonas@dohse.ch
+Copyright 2019 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2019 Olli Janatuinen olli.janatuinen@gmail.com
+Copyright 2019 Sebastiaan van Stijn github@gone.nl
+Copyright 2019 Stig Larsson stig@larsson.dev
+Copyright 2020 Akhil Mohan akhil.mohan@mayadata.io
+Copyright 2020 Akihiro Suda akihiro.suda.cz@hco.ntt.co.jp
+Copyright 2020 Aleksa Sarai cyphar@cyphar.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2020 Sebastiaan van Stijn github@gone.nl
+Copyright 2020 Shengjing Zhu zhsj@debian.org
+Copyright 2020 Suryandaru Triandana syn@dtr.my.id
+Copyright 2020 Tobias Klauser tklauser@distanz.ch
+Copyright 2020 liuxiaodong liuxiaodong@loongson.cn
+Copyright 2021 Eng Zer Jun engzerjun@gmail.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Grant Millar rid@cylo.io
+Copyright 2021 Hajime Tazaki thehajime@gmail.com
+Copyright 2021 Kazuyoshi Kato katokazu@amazon.com
+Copyright 2021 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2021 Muhammad Kaisar Arkhan hi@yukiisbo.red
+Copyright 2021 Sebastiaan van Stijn github@gone.nl
+Copyright 2022 Artem Khramov akhramov@pm.me
+Copyright 2022 Cory Snider csnider@mirantis.com
+Copyright 2022 GitHub noreply@github.com
+Copyright 2022 Kathryn Baldauf kabaldau@microsoft.com
+Copyright 2022 Kazuyoshi Kato katokazu@amazon.com
+Copyright 2022 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2022 Manu Gupta manugupt1@gmail.com
+Copyright 2022 Sebastiaan van Stijn github@gone.nl
+Copyright 2022 谢致邦 (XIE Zhibang) Yeking@Red54.com
+Copyright 2023 Aleksa Sarai cyphar@cyphar.com
+Copyright 2023 GitHub noreply@github.com
+Copyright 2023 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2023 Nicolas De Loof nicolas.deloof@gmail.com
+Copyright 2023 Sebastiaan van Stijn github@gone.nl
+Copyright 2023 Tianon Gravi admwiggin@gmail.com
+Copyright 2024 Austin Vazquez macedonv@amazon.com
+Copyright 2024 GitHub noreply@github.com
+Copyright 2024 Kir Kolyshkin kolyshkin@gmail.com
+Copyright 2024 Sebastiaan van Stijn github@gone.nl
+Copyright 2024 lifubang lifubang@acmcoder.com
+Copyright 2025 Derek McGowan derek@mcg.dev
+Copyright 2025 GitHub noreply@github.com
+Copyright 2025 Sebastiaan van Stijn github@gone.nl
 
 --------------------------------- (separator) ----------------------------------
 
@@ -2559,9 +2772,7 @@ github.com/modern-go/concurrent
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (c) 2014-2018 The Docker (no copyright notices found) Go Authors. All rights reserved.
-Copyright 2012 The Go Authors. All rights reserved.
-Copyright 2014-2018 Docker, Inc.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3509,7 +3720,27 @@ go.opentelemetry.io/auto/sdk
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2016 Vladimir Bauer vbauerster@gmail.com
+Copyright 2017 Alexander Neumann alexander@bumpern.de
+Copyright 2017 Àlex Vinyals Valdepeñas alevinval@gmail.com
+Copyright 2017 GitHub noreply@github.com
+Copyright 2017 Vladimir Bauer vbauerster@gmail.com
+Copyright 2017 Àlex Vinyals Valdepeñas alevinval@gmail.com
+Copyright 2018 Vladimir Bauer vbauerster@gmail.com
+Copyright 2019 GitHub noreply@github.com
+Copyright 2019 Vladimir Bauer vbauerster@gmail.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Ubuntu asellappen@yahoo.com
+Copyright 2020 Vladimir Bauer vbauerster@gmail.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Samuel-Turner samuel.turner@ibm.com
+Copyright 2021 Vladimir Bauer vbauerster@gmail.com
+Copyright 2022 Vladimir Bauer vbauerster@gmail.com
+Copyright 2023 Vladimir Bauer vbauerster@gmail.com
+Copyright 2024 Vladimir Bauer vbauerster@gmail.com
+Copyright 2025 GitHub noreply@github.com
+Copyright 2025 Kian-Meng Ang kianmeng@cpan.org
+Copyright 2025 Vladimir Bauer vbauerster@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3531,48 +3762,7 @@ go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 1991, 1999 Free Software Foundation, Inc.
-Copyright (C) 2013 Blake Mizerany
-Copyright (C) 2013-2015 Alexei Starovoitov <ast@kernel.org>
-Copyright (C) 2014-2019, Matt Butcher and Matt Farina
-Copyright (C) 2015 Huawei Inc.
-Copyright (C) 2015 Wang Nan <wangnan0@huawei.com>
-Copyright (C) 2021 Facebook
-Copyright (c) 2009 The Go Authors. All rights reserved.
-Copyright (c) 2009,2014 Google Inc. All rights reserved.
-Copyright (c) 2011 The Snappy-Go Authors. All rights reserved.
-Copyright (c) 2011, Open Knowledge Foundation Ltd.
-Copyright (c) 2012 The Go Authors. All rights reserved.
-Copyright (c) 2013 The Go Authors. All rights reserved.
-Copyright (c) 2013, The GoGo Authors. All rights reserved.
-Copyright (c) 2014 Cenk Altı
-Copyright (c) 2015 Klaus Post
-Copyright (c) 2015 The Libbpf Authors. All rights reserved.
-Copyright (c) 2015, Dave Cheney <dave@cheney.net>
-Copyright (c) 2015, Gengo, Inc.
-Copyright (c) 2016 Caleb Spare
-Copyright (c) 2016 json-iterator
-Copyright (c) 2017 Nathan Sweet
-Copyright (c) 2017-2021 Uber Technologies, Inc.
-Copyright (c) 2018 - 2019 Intel Corporation.
-Copyright (c) 2018 The Go Authors. All rights reserved.
-Copyright (c) 2018, 2019 Cloudflare
-Copyright (c) 2019 Authors of Cilium
-Copyright (c) 2019 Facebook
-Copyright (c) 2019 Klaus Post. All rights reserved.
-Copyright 2009 The Go Authors.
-Copyright 2010 The Go Authors
-Copyright 2010 The Go Authors. All rights reserved.
-Copyright 2012-2015 The Prometheus Authors
-Copyright 2013-2015 Blake Mizerany, Björn Rabenstein
-Copyright 2014 gRPC authors.
-Copyright 2014-2015 The Prometheus Authors
-Copyright 2015 The Go Authors.
-Copyright 2015 The Prometheus Authors
-Copyright 2016 The filepathx Authors
-Copyright 2016-2017 The New York Times Company
-Copyright 2023 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3594,8 +3784,12 @@ go.opentelemetry.io/otel/exporters/otlp/otlptrace
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
+Copyright (c) 2016-2017 Uber Technologies, Inc.
+Copyright (c) 2017 Uber Technologies, Inc.
+Copyright (c) 2021 The Jaeger Authors.
+Copyright 2014 gRPC authors.
+Copyright 2017, OpenCensus Authors
+Copyright 2023 The Go Authors. All rights reserved.
 Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
@@ -3642,9 +3836,7 @@ go.opentelemetry.io/otel/sdk
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2009 The Go Authors. All rights reserved.
-Copyright 2022 The Go Authors. All rights reserved.
-Copyright The OpenTelemetry Authors
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3655,7 +3847,9 @@ go.opentelemetry.io/otel/trace
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2009 The Go Authors. All rights reserved.
+Copyright 2022 The Go Authors. All rights reserved.
+Copyright The OpenTelemetry Authors
 
 --------------------------------- (separator) ----------------------------------
 
