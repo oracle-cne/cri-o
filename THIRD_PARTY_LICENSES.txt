@@ -486,7 +486,7 @@ github.com/containerd/fifo
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -497,7 +497,7 @@ github.com/containerd/go-runc
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -508,7 +508,7 @@ github.com/containerd/log
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -519,7 +519,8 @@ github.com/containerd/nri
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -530,8 +531,7 @@ github.com/containerd/otelttrpc
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2015 CNI authors
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -542,7 +542,9 @@ github.com/containerd/platforms
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The OpenTelemetry Authors
+Copyright The OpenTelemetry Authors.
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -564,8 +566,7 @@ github.com/containerd/ttrpc
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -576,7 +577,7 @@ github.com/containerd/typeurl
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
