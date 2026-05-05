@@ -1,7 +1,7 @@
-diff --git vendor/go.podman.io/image/v5/docker/docker_client.go vendor/go.podman.io/image/v5/docker/docker_client.go
+diff --git vendor/github.com/containers/image/v5/docker/docker_client.go vendor/github.com/containers/image/v5/docker/docker_client.go
 index 1c0d67105..7161fc11c 100644
---- vendor/go.podman.io/image/v5/docker/docker_client.go
-+++ vendor/go.podman.io/image/v5/docker/docker_client.go
+--- vendor/github.com/containers/image/v5/docker/docker_client.go
++++ vendor/github.com/containers/image/v5/docker/docker_client.go
 @@ -929,12 +929,23 @@ func (c *dockerClient) detectPropertiesHelper(ctx context.Context) error {
  			return err
  		}
