@@ -535,7 +535,7 @@ github.com/containerd/fifo
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -546,7 +546,7 @@ github.com/containerd/go-runc
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -557,7 +557,7 @@ github.com/containerd/log
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -568,7 +568,8 @@ github.com/containerd/nri
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -579,8 +580,7 @@ github.com/containerd/otelttrpc
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2015 CNI authors
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -591,7 +591,9 @@ github.com/containerd/platforms
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The OpenTelemetry Authors
+Copyright The OpenTelemetry Authors.
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -613,8 +615,7 @@ github.com/containerd/ttrpc
 SPDX:Apache-2.0
 
 == Copyright
-Copyright The containerd Authors
-Copyright The containerd Authors.
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -625,7 +626,7 @@ github.com/containerd/typeurl
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright The containerd Authors.
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3324,9 +3325,7 @@ github.com/modern-go/reflect2
 SPDX:Apache-2.0
 
 == Copyright
-Copyright 2018 GitHub noreply@github.com
-Copyright 2018 Tao Wen taowen@gmail.com
-Copyright 2018 kr1sten0 zhqy0807@gmail.com
+(no copyright notices found)
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3571,7 +3570,9 @@ github.com/opencontainers/selinux
 SPDX:Apache-2.0
 
 == Copyright
-(no copyright notices found)
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Tao Wen taowen@gmail.com
+Copyright 2018 kr1sten0 zhqy0807@gmail.com
 
 --------------------------------- (separator) ----------------------------------
 
@@ -3911,7 +3912,18 @@ github.com/stefanberger/go-pkcs11uri
 SPDX:Apache-2.0
 
 == Copyright
-Copyright (C) 2004, 2006 The Linux Foundation and its contributors.
+Copyright 2018 GitHub noreply@github.com
+Copyright 2018 Justin Santa Barbara justinsb@google.com
+Copyright 2018 Tao Wen taowen@gmail.com
+Copyright 2018 nextzhou nextzhou@gmail.com
+Copyright 2020 Aaron Simmons paleozogt@gmail.com
+Copyright 2020 GitHub noreply@github.com
+Copyright 2020 Mikko Ylinen mikko.ylinen@intel.com
+Copyright 2020 xueyuan zhangxueyuan@ayang.com
+Copyright 2021 GitHub noreply@github.com
+Copyright 2021 Tao Wen taowen@chengfayun.com
+Copyright 2024 Tonis Tiigi tonistiigi@gmail.com
+Copyright 2025 GitHub noreply@github.com
 
 --------------------------------- (separator) ----------------------------------
 
