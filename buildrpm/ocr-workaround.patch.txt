@@ -1,0 +1,29 @@
+diff --git vendor/github.com/containers/image/v5/docker/docker_client.go vendor/github.com/containers/image/v5/docker/docker_client.go
+index 1c0d67105..7161fc11c 100644
+--- vendor/github.com/containers/image/v5/docker/docker_client.go
++++ vendor/github.com/containers/image/v5/docker/docker_client.go
+@@ -929,12 +929,23 @@ func (c *dockerClient) detectPropertiesHelper(ctx context.Context) error {
+ 			return err
+ 		}
+ 		defer resp.Body.Close()
++		respUrl := resp.Request.URL
++		location := respUrl.String()
++		logrus.Debugf("Ping %s status %d location %s", pingURL, resp.StatusCode, location)
+ 		logrus.Debugf("Ping %s status %d", pingURL.Redacted(), resp.StatusCode)
+ 		if resp.StatusCode != http.StatusOK && resp.StatusCode != http.StatusUnauthorized {
+ 			return registryHTTPResponseToError(resp)
+ 		}
++		if pingURL.Redacted() != location && strings.Index(pingURL.Redacted(), ".oracle.com/") != -1 && strings.Index(location, ".oracle.com/") != -1 {
++			if scheme != respUrl.Scheme && scheme == "https" {
++				return errors.New(fmt.Sprintf("Redirected from https! wanted %s got %s", pingURL.Redacted(), location))
++			}
++			schemesize := len(respUrl.Scheme)
++			// +3 == len("://")
++			c.registry = location[schemesize+3 : len(location)-len(fmt.Sprintf(resolvedPingV2URL, "", ""))+3]
++		}
+ 		c.challenges = slices.Collect(iterateAuthHeader(resp.Header))
+-		c.scheme = scheme
++		c.scheme = respUrl.Scheme
+ 		c.supportsSignatures = resp.Header.Get("X-Registry-Supports-Signatures") == "1"
+ 		return nil
+ 	}
