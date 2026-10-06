@@ -1244,7 +1244,7 @@ func (r *runtimeVM) AttachContainer(ctx context.Context, c *Container, inputStre
 		},
 	}
 
-	cInfo.cio.Attach(opts)
+	cInfo.cio.Attach(ctx, opts)
 
 	return nil
 }
