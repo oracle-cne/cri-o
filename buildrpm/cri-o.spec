@@ -9,7 +9,7 @@
 
 Name: cri-o
 Version: 1.32.11
-Release: 1%{?dist}
+Release: 2%{?dist}
 ExcludeArch: ppc64
 Summary: Kubernetes Container Runtime Interface for OCI-based containers
 License: ASL 2.0
@@ -153,5 +153,8 @@ mv src/github.com/cri-o/cri-o/THIRD_PARTY_LICENSES.txt .
 %dir %{_datadir}/containers/oci/hooks.d
 
 %changelog
+* Mon Oct 19 2026 Oracle Cloud Native Environment Authors <noreply@oracle.com> - 1.32.11-2
+- Refresh Go dependencies for CRI-O 1.32.11
+
 * Fri Dec 12 2025 Oracle Cloud Native Environment Authors <noreply@oracle.com> - 1.32.11-1
 - Added Oracle Specifile Files for cri-o
