@@ -16,7 +16,7 @@ import (
 	"github.com/containers/storage/pkg/truncindex"
 	json "github.com/json-iterator/go"
 	rspec "github.com/opencontainers/runtime-spec/specs-go"
-	"github.com/opencontainers/selinux/go-selinux/label"
+	"github.com/opencontainers/selinux/go-selinux"
 	"github.com/sirupsen/logrus"
 	types "k8s.io/cri-api/pkg/apis/runtime/v1"
 
@@ -380,9 +380,7 @@ func (c *ContainerServer) LoadSandbox(ctx context.Context, id string) (sb *sandb
 		sb.SetStopped(ctx, true)
 	}
 
-	if err := label.ReserveLabel(processLabel); err != nil {
-		return sb, err
-	}
+	selinux.ReserveLabel(processLabel)
 
 	if err := c.ctrIDIndex.Add(scontainer.ID()); err != nil {
 		return sb, err
