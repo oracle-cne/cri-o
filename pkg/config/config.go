@@ -1854,9 +1854,10 @@ func (r *RuntimeHandler) ValidateContainerMinMemory(name string) error {
 
 	memorySize, err := units.RAMInBytes(r.ContainerMinMemory)
 	if err != nil {
-		err = fmt.Errorf("unable to set runtime memory to %q: %w. Setting to %q instead", r.ContainerMinMemory, err, defaultContainerMinMemory)
 		// Fallback to default value if something is wrong with the configured value.
-		r.ContainerMinMemory = units.BytesSize(defaultContainerMinMemory)
+		defaultMemory := units.BytesSize(defaultContainerMinMemory)
+		err = fmt.Errorf("unable to set runtime memory to %q: %w. Setting to %q instead", r.ContainerMinMemory, err, defaultMemory)
+		r.ContainerMinMemory = defaultMemory
 
 		return err
 	}
